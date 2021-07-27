@@ -1,13 +1,12 @@
-import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+import React from 'react';
 import './HeroSection.css';
+import { Button } from './Button';
 
 function HeroSection() {
   return (
-    <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
+    <div className='hero-container'>     
+      <h1>BUY  NOW!</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
         <Button
@@ -15,7 +14,7 @@ function HeroSection() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          WISHLIST
         </Button>
         <Button
           className='btns'
@@ -23,7 +22,7 @@ function HeroSection() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          WATCH TRAILER <i className='fa fa-play-circle' />
+          CART<i className='fa fa-play-circle' />
         </Button>
       </div>
     </div>

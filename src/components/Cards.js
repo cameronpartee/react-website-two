@@ -5,19 +5,19 @@ import './Cards.css'
 function Cards() {
     return (
         <div className="cards">
-            <h1>Check out these epic destinations!</h1>
+            <h1>Check out these other items!</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem 
-                        src="images/img-7.jpg"
+                        src="./images/IMG_2860.jpg"
                         text="Explore the hidden waterfall deep inside the Amazon Jungle"
                         label="Adventure"
                         path="/services"
                         />
 
                         <CardItem 
-                        src="images/img-8.jpg"
+                        src="./images/IMG_2860.jpg"
                         text="Travel through the islands of Bali in a private cruise"
                         label="Luxury"
                         path="/services"
@@ -26,21 +26,21 @@ function Cards() {
 
                     <ul className="cards__items">
                         <CardItem 
-                        src="images/img-7.jpg"
+                        src="./images/IMG_2862.jpg"
                         text="Explore the hidden waterfall deep inside the Amazon Jungle"
                         label="Adventure"
                         path="/services"
                         />
 
                         <CardItem 
-                        src="images/img-8.jpg"
+                        src="./images/IMG_2860.jpg"
                         text="Travel through the islands of Bali in a private cruise"
                         label="Luxury"
                         path="/services"
                         />
 
-<CardItem 
-                        src="images/img-8.jpg"
+                        <CardItem 
+                        src="./images/IMG_2860.jpg"
                         text="Travel through the islands of Bali in a private cruise"
                         label="Luxury"
                         path="/services"

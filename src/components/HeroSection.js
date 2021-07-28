@@ -5,7 +5,7 @@ import { Button } from './Button';
 
 function HeroSection() {
   return (
-    <div className='hero-container'>     
+    <div className='hero-container' >     
       <h1>BUY  NOW!</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
